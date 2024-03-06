@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkiyede Universitet Oka!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Türkiýede Uniwersitet Oka</h1>
+    </header>
+
+    <nav>
+        <a onclick="showTab('home')" class="active">Baş sahypa</a>
+        <a onclick="showTab('services')">Hyzmatlar</a>
+        <a onclick="showTab('faq')">Sorag-Jogap</a>
+        <a onclick="showTab('about')">Biz barada</a>
+        <a onclick="showTab('contact')">Habarlaşmak üçin</a>
+    </nav>
+
+    <section id="home">
+        <h2>Hoş geldiňiz!</h2>
+        <!-- Add your home content here -->
+    </section>
+
+    <section id="services">
+        <h2>Hyzmatlar</h2>
+        <!-- Add services content here -->
+    </section>
+
+    <section id="faq">
+        <h2>Sorag-Jogap</h2>
+
+        <div class="faq-item" onclick="toggleAnswer(1)">
+            <h3>Q: What is the education system like in Turkey?</h3>
+            <div class="answer">
+                <p>A: The education system in Turkey is structured into primary, secondary, and higher education levels. Primary
+                    education is compulsory, and higher education institutions offer various programs.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleAnswer(2)">
+            <h3>Q: How many universities are there in Turkey?</h3>
+            <div class="answer">
+                <p>A: Turkey has numerous universities, with both public and private institutions. The total number is subject to change
+                    as new universities may be established.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleAnswer(3)">
+            <h3>Q: Can international students study in Turkey?</h3>
+            <div class="answer">
+                <p>A: Yes, Turkey welcomes international students. Many universities offer programs in English, and there are various
+                    scholarships available for international students.</p>
+            </div>
+        </div>
+
+        <!-- Add more FAQ items as needed -->
+
+    </section>
+
+    <section id="about">
+        <h2>Biz barada</h2>
+        <!-- Add about us content here -->
+    </section>
+
+    <section id="contact">
+        <h2>Habarlaşmak üçin</h2>
+        <p>Email: <a href="mailto:turkiyeokuw@gmail.com">turkiyeokuw@gmail.com</a></p>
+        <p>IMO: +49 1789 1953 39</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Turkiyede Okuw. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
